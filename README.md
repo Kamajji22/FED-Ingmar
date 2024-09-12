@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Ingmar Dijt
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Piste Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Ik ga proberen de hema website zo goed mogelijk na te maken en het ook beter responsive proberen te maken dan de echte hema site, die best wel slecht responsive is voor een groot bedrijf.
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.hema.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Hema Homepagina
+  <img src="readme-images/hemaHomepage" width="375px" alt="De Homepagina van de Hema, small screen">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Hema Productoverzichtpagina
+  <img src="readme-images/hemaOverzichtpagina.jpg" width="375px" alt="productoverzichtpagina van de hema, small screen">
  
 </details>
 
@@ -56,7 +56,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  De hema doet het met de screenreader over het algemeen zeer goed. Er zijn een paar punten die verbeterd kunnen worden zoals aan het begin waar de screenreader opeens dingen begint voor te lezen die niet op het scherm staan. Hij lijkt vooruit te lopen en leest volgensmij oude aanbiedingen nog voor, want het ging over Nijntje terwijl Nijntje nergens te zien was.
+
+  Ook werden de catagorien dubbel voorgelezen. Dit komt zeer waarschijnlijk omdat de images een alt tekst hebben en daaronder ook nog tekst staat.
 
 </details>
 
