@@ -28,3 +28,11 @@
 /****************/
 
 /* jouw code */
+@font-face {
+	font-family: "HurmeHEMA-Regular";
+	src: url("/fonts/HurmeHEMA-Regular.woff2") format(.woff2); 
+}
+
+p {
+	font-family: "HurmeHEMA-Regular";
+}
