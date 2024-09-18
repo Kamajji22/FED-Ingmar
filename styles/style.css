@@ -35,12 +35,12 @@
 
 @font-face {
 	font-family: "HurmeHEMA-Regular";
-	src: url("/fonts/HurmeHEMA-Regular.woff2") format(woff2); 
+	src: url("../fonts/HurmeHEMA-Regular.woff2") format(woff2); 
 }
 
 @font-face {
   font-family: "HurmeHEMA-Bold";
-  src: url("/fonts/HurmeHEMA-Bold.woff2") format(woff2);
+  src: url("../fonts/HurmeHEMA-Bold.woff2") format(woff2);
 }
 
 /*algemene styling*/
