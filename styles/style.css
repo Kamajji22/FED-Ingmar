@@ -16,7 +16,9 @@
 :root {
 	/* startje */
 	--color-text:#111;
+  --color-text-white: white;
 	--color-background:#eee;
+  --color-highlight: #9C1AFF;
 }
 
 
@@ -28,11 +30,107 @@
 /****************/
 
 /* jouw code */
+
+/*fonts*/
+
 @font-face {
 	font-family: "HurmeHEMA-Regular";
-	src: url("/fonts/HurmeHEMA-Regular.woff2") format(.woff2); 
+	src: url("/fonts/HurmeHEMA-Regular.woff2") format(woff2); 
 }
+
+@font-face {
+  font-family: "HurmeHEMA-Bold";
+  src: url("/fonts/HurmeHEMA-Bold.woff2") format(woff2);
+}
+
+/*algemene styling*/
 
 p {
 	font-family: "HurmeHEMA-Regular";
+  text-decoration: none;
+}
+
+h1 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+h2 {
+  font-family: "HurmeHEMA-Bold";
+}
+
+h3 {
+  font-family: "HuremaHEMA-Bold";
+}
+
+li {
+  list-style: none;
+}
+
+/*nav*/
+
+nav li img {
+  border-radius: 50%;
+  width: 25vw;
+}
+
+main nav ul{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+main nav a{
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+
+}
+
+/*main*/
+
+main section:first-of-type {
+  background-color: #499bc1;
+  color: white;
+}
+
+main section:nth-last-of-type()
+
+/*footer*/
+
+footer section:first-of-type {
+  background-color: var(--color-highlight);
+}
+
+footer section:nth-of-type(3) ul{
+  display: flex;
+  flex-direction: row;
+}
+
+footer section:nth-of-type(3) a img{
+  width: 5vh;
+  margin: 5px;
+}
+
+footer section:nth-of-type(4) ul{
+  display: flex;
+  flex-direction: row;
+}
+
+footer section:nth-of-type(4) a img{
+  width: 5vh;
+  margin: 5px;
+}
+
+footer section:nth-of-type(4) p{
+  color: gray;
+}
+
+footer h3 {
+  font-family: "HurmeHEMA-Bold";
 }
