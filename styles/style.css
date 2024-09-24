@@ -374,10 +374,6 @@ main section:nth-of-type(6) article a{
   padding: 1em;
 }
 
-main section:nth-of-type(6) article a p{
-
-}
-
 /*main section 7*/
 
 main section:nth-of-type(7) {
@@ -419,8 +415,12 @@ main section:nth-of-type(7) summary::after {
   background-size: cover;
 }
 
-details[open] > summary::after {
+main section:nth-of-type(7) details[open] > summary::after {
   transform: rotate(180deg);
+}
+
+main section:nth-of-type(7) details {
+  border-bottom: 1px rgb(212, 212, 212);
 }
 
 /*footer*/
@@ -579,6 +579,13 @@ footer section:nth-of-type(5) h3 {
 footer section:nth-of-type(5) p {
   font-size: 0.90em;
   margin-bottom: 0.75em;
+}
+
+footer section:nth-of-type(5) {
+  display: grid;
+  position: relative;
+  grid-template-rows: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
 }
 
 
