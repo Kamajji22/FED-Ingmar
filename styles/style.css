@@ -74,7 +74,7 @@ h2 {
 }
 
 h3 {
-  font-family: "HuremaHEMA-Bold";
+  font-family: "HurmeHEMA-Bold";
 }
 
 h4 {
@@ -88,7 +88,9 @@ li {
 /*header*/
 
 header {
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
 }
 
 .hemaLogo {
@@ -257,12 +259,7 @@ main section:nth-of-type(3) a{
   color: #111;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  font-family: "HuremaHEMA-Bold";
   text-align: left;
-}
-
-main section:nth-of-type(3) h3{
-  font-family: "HuremaHEMA-Bold";
 }
 
 /*main section 4*/
@@ -290,7 +287,6 @@ main section:nth-of-type(4) a{
   color: #111;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  font-family: "HuremaHEMA-Bold";
   text-align: left;
 }
 
@@ -298,10 +294,6 @@ main section:nth-of-type(4) a{
 
 main section:nth-of-type(5) {
   margin-left: 1em;
-}
-
-main section:nth-of-type(5) a h3 {
-  font-family: "HuremaHEMA-Bold";
 }
 
 main section:nth-of-type(5) li img {
@@ -323,7 +315,6 @@ main section:nth-of-type(5) a{
   color: #111;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  font-family: "HuremaHEMA-Bold";
   text-align: left;
 }
 
@@ -346,6 +337,13 @@ main section:nth-of-type(6) li{
   text-align: center;
   color: var(--color-text-white);
   margin-bottom: 0.5em;
+  font-family: "HurmeHEMA-Bold";
+  ;
+}
+
+main section:nth-of-type(6) ul::marker {
+  content: '✓';
+  font-size: 1.2em;
 }
 
 main section:nth-of-type(6) {
@@ -357,33 +355,38 @@ main section:nth-of-type(6) article{
   margin: 1em;
   position: absolute;
   top: 16.5em;
-  border-radius: 1em;
+  border-radius: 0.75em;
 }
 
-main section:nth-of-type(6) a p{
-  border: var(--color-background);
-  border-radius: 0.5em;
-}
 
-main section:nth-of-type(6) article a{
+main section:nth-of-type(6) a{
   text-decoration: none;
   font-family: "HuremaHEMA-Bold";
   text-align: center;
   color: var(--color-text-white);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   padding: 1em;
+}
+
+main section:nth-of-type(6) a p{
+  border: var(--color-background) 2px solid;
+  border-radius: 0.5em;
+  padding: 1.2em;
+  margin: 1.7em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 /*main section 7*/
 
 main section:nth-of-type(7) {
-  margin-top: 17em;
+  margin-top: 25em;
   margin-left: 1em;
   margin-right: 1em;
 }
 
 main section:nth-of-type(7) {
-  margin-top: 17em;
+  margin-top: 22em;
   margin-left: 1em;
 }
 
@@ -467,10 +470,10 @@ footer section:nth-of-type(1) input {
 
 footer section:nth-of-type(1) li {
   list-style: disc;
-  padding-left: 1em;
   color: var(--color-text-white);
   text-decoration: underline;
   text-decoration-color: var(--color-text-white);
+  margin-left: 1em;
 }
 
 footer section:nth-of-type(1) li::marker {
@@ -489,6 +492,7 @@ footer section:first-of-type li a{
 
 footer section:first-of-type li a p{
   margin-bottom: 0.5em;
+  text-decoration-color: var(--color-text-white);
 }
 
 footer section:first-of-type input {
@@ -529,23 +533,27 @@ footer section:nth-of-type(2) h3{
   margin-bottom: 1em;
 }
 
-footer section:nth-of-type(2) a{
+footer section:nth-of-type(2) a {
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   text-decoration: none;
+  background-color: green;
+  height: 100px;
+  width: 100px;
 }
 
 footer section:nth-of-type(2) input {
   width: 90vw;
-  padding: 1em;
+  padding: 1.2em;
   margin-top: 1em;
   border-radius: 0.75em;
-  border: 1px;
   background-color: #ffffff;
   color: #767676;
-  border: 1px;
-  border-color: #767676;
+  border: 1px solid;
+  border-color: #bdbdbd;
   height: 4em;
+  display: table-cell;
+  font-size: 0.85em;
 }
 
 /*footer section 3*/
@@ -656,6 +664,16 @@ footer section:nth-of-type(6) ul {
   border-bottom: 0.5px solid rgb(212, 212, 212);
   padding-bottom: 1.5em;
   margin-bottom: 1em;
+}
+
+footer section:nth-of-type(6) ul li {
+  margin-left: 1em;
+  padding-left: 0;
+}
+
+
+footer section:nth-of-type(6) a p {
+  text-decoration: var(--color-text-white);
 }
 
 /*footer section 7*/
