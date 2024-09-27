@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Piste Blauw
 
   #### Je focus:
-  Ik ga proberen de hema website zo goed mogelijk na te maken en het ook beter responsive proberen te maken dan de echte hema site, die best wel slecht responsive is voor een groot bedrijf.
+  surface plane
  
 </details>
 
@@ -56,10 +56,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  De hema doet het met de screenreader over het algemeen zeer goed. Er zijn een paar punten die verbeterd kunnen worden zoals aan het begin waar de screenreader opeens dingen begint voor te lezen die niet op het scherm staan. Hij lijkt vooruit te lopen en leest volgensmij oude aanbiedingen nog voor, want het ging over Nijntje terwijl Nijntje nergens te zien was.
+  De hema doet het met de screenreader over het algemeen zeer goed. Er zijn een paar punten die verbeterd kunnen worden zoals aan het begin waar de screenreader opeens dingen begint voor te lezen die niet op het scherm staan. Hij lijkt vooruit te lopen of leest nog oude aanbiedingen nog, want het ging over Nijntje terwijl Nijntje nergens te zien was.
 
-  Ook werden de catagorien dubbel voorgelezen. Dit komt zeer waarschijnlijk omdat de images een alt tekst hebben en daaronder ook nog tekst staat.
+  Ook begint de screen reader over inloggen te praten, zoas wachtwoord vergeten en maak een nieuw account aan. Dit is nergens te zien op de site
 
+  Ook werden onder andere catagorien dubbel voorgelezen. Dit komt zeer waarschijnlijk omdat de images een alt tekst hebben en daaronder ook nog tekst staat. Dit is makkelijk te voorkomen.
+
+  Ook zijn er fouten in de site. Zo gaan drop down menus af en toe gewoon niet open als je er op clickt en werken de carousels niet. Deze fouten komen alleen voor op mobile formaat. Door de pagina te refreshen gaan de fouten weg. Dit moet natuurlijk helemaal niet voorkomen 
+
+  <h3>A11y Test</h3>
+  <p>sommige onderdelen zoals video en tables heb ik overgeslagen omdat de hema geen videos en tables heeft dus het was NVT</p>
+  <img src="readme-images/content.png" width="375px" alt="content a11y test">
+  <img src="readme-images/globalCode.png" width="375px" alt="global code a11y test">
+  <img src="readme-images/keyboard.png" width="375px" alt="keyboard a11y test">
+  <img src="readme-images/images.png" width="375px" alt="images a11y test">
+  <img src="readme-images/headings.png" width="375px" alt="headings a11y test">
+  <p>omdat de hema geen h1 heeft zijn alle punten bij headings niet behaald</p>
+  <img src="readme-images/list.png" width="375px" alt="list a11y test">
+  <img src="readme-images/controls.png" width="375px" alt="controls a11y test">
+  <img src="readme-images/input.png" width="375px" alt="forms a11y test">
+  <img src="readme-images/appearence.png" width="375px" alt="appearence a11y test">
+  <img src="readme-images/animation.png" width="375px" alt="animation a11y test">
+  <img src="readme-images/contrast.png" width="375px" alt="contrasts a11y test">
+  <img src="readme-images/mobile.png" width="375px" alt="mobile a11y test">
+
+  
 </details>
 
 
