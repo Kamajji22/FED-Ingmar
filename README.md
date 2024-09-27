@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Hema Homepagina
-  <img src="readme-images/hemaHomepage" width="375px" alt="De Homepagina van de Hema, small screen">
+  <img src="readme-images/hemaHomepage.jpg" width="375px" alt="De Homepagina van de Hema, small screen">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Hema Productoverzichtpagina
@@ -76,9 +76,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/controls.png" width="375px" alt="controls a11y test">
   <img src="readme-images/input.png" width="375px" alt="forms a11y test">
   <img src="readme-images/appearence.png" width="375px" alt="appearence a11y test">
-  <img src="readme-images/animation.png" width="375px" alt="animation a11y test">
+  <img src="readme-images/animatie.png" width="375px" alt="animation a11y test">
   <img src="readme-images/contrast.png" width="375px" alt="contrasts a11y test">
-  <img src="readme-images/mobile.png" width="375px" alt="mobile a11y test">
+  <img src="readme-images/mobile.png" width="375px" alt="mobile  a11y test">
 
   
 </details>
@@ -91,13 +91,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
 </details>
 
@@ -207,10 +201,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Vragen of ik een simpelere tweede pagina mag
+  - Vragen of ik dingen kan weglaten in hamburger menu
 
 </details>
 
