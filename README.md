@@ -244,8 +244,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.sitepoint.com/style-html-details-element/ stylen details en summary
+  2. i want three rows, how do i do this in html css: chatgpt prompt
+  3. David de studentenassisten
+  4. ivo
 
 </details>

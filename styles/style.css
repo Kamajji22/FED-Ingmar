@@ -775,8 +775,8 @@ footer section:nth-of-type(6) {
 
 footer section:nth-of-type(6) ul {
   display: grid;
-  grid-template-rows: repeat(3, auto); /* 3 rows for the list items */
-  gap: 0.50em; /* Space between rows */
+  grid-template-rows: repeat(3, auto);
+  gap: 0.50em;
   border-bottom: 0.5px solid rgb(212, 212, 212);
   padding-bottom: 1.5em;
   margin-right: 1em;
