@@ -7,18 +7,27 @@
 	<title>HEMA.nl</title>
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/logohema.svg">
-	<script src="scripts/script.js"></script>
 </head>
 
 <body>
 	<header>
 		<h1>Hema</h1>
-		<img src="images/logohema.svg" class="hemaLogo" alt="">
+		<img src="images/logohema.svg" class="hemaLogo" alt=""> 
 		<nav>
 			<ul>
 				<li><a href="#"><img src="images/account.svg" alt="profiel"></a></li>
 				<li><a href="#"><img src="images/winkelMandje.svg" alt="winkelwagen"></a></li>
-				<li><a href="#"><img src="images/hamburgerMenu.svg" alt="menu"></a></li>
+				<li><a href="#"><img src="images/hamburgerMenu.svg" alt="menu" class="hamburgerKnop"></a></li>
+			</ul>
+			<ul class="hamburgerMenu" id="toonMenu"> <!--Hamburgermenu-->
+				<li><img src="images/logohema.svg" class="hemaLogo" alt=""></li>
+				<li><img src="images/kruisje.svg" alt="sluit menu" id="sluitHamburger"></li>
+				<li><input type="search" placeholder="waar ben je naar op zoek?" name="waar ben je naar op zoek?"></li>
+				<li><a href="#"><img src="images/slayma.jpg" alt=""> <p>back to school</p></a></li>
+				<li><a href="#"><img src="images/baby.jpg" alt=""> <p>baby</p></a></li>
+				<li><a href="#"><img src="images/kind.jpg" alt=""> <p>kind</p></a></li>
+				<li><a href="#"><img src="images/dames.jpg" alt=""> <p>dames</p></a></li>
+				<li><a href="#"><img src="images/heren.jpg" alt=""> <p>heren</p></a></li>
 			</ul>
 		</nav>
 		<input type="search" placeholder="waar ben je naar op zoek?" name="waar ben je naar op zoek?">
@@ -33,7 +42,7 @@
 				<li><a href="#"><img src="images/heren.jpg" alt=""> <p>heren</p></a></li>
 			</ul>
 		</nav>
-		<section class="relative"> <!--main section 1-->
+		<section class="relative"> <!--main section 1, waarin de hoofdaanbieding staat-->
 			<a href="#"><img src="images/MilanoPannen.jpg" class="hoofdaanbieding" alt="Afbeelding met verschillende Milanese en Napolitaanse pannen. Koekenpannen hangen van het plaffond en de kookpotten staan gestapeld op elkaar"></a>
 			<img src="images/40procentkorting.png" class="korting" alt="40% korting">
 			<article>
@@ -345,5 +354,6 @@
 			<p>E-mailadres klantenservice: hemaklantenservice@hema.nl</p>
 		</section>
 	</footer>
+	<script src="scripts/script.js"></script>
 </body>
 </html>

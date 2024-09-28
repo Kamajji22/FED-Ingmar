@@ -127,6 +127,29 @@ header input {
   font-family: "HurmeHEMA-Regular";
 }
 
+/*header hamburgermenu*/
+
+header .hamburgerMenu {
+  padding:1em;
+  display:grid;
+  align-content:start;
+  background-color: var(--color-background);
+  gap:1em;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  z-index: 3; /*zet de hamburgermenu voor de rest*/
+  overflow: scroll; /*laat de hamburger menu scrollen*/
+  translate: 100% 0%;
+  transition: .3s;
+}
+
+header #toonMenu {
+  translate: 0% 0%;
+}
+
 /*main*/
 
 /*nav main*/
@@ -149,7 +172,7 @@ main nav a{
   text-align: center;
   text-decoration: none;
   color: #111;
-  margin-left: 1em;
+  margin-left: 2em;
   margin-right: 0.5em;
 }
 
@@ -542,12 +565,6 @@ main section:nth-of-type(7) summary{
   main section:nth-of-type(7) details {
     border-bottom: 0.5px solid rgb(212, 212, 212);
     padding-bottom: 1.35em;
-  }
-  
-  details .content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
   }
 
 /*footer*/

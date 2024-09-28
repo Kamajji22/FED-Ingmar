@@ -248,5 +248,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. i want three rows, how do i do this in html css: chatgpt prompt
   3. David de studentenassisten
   4. ivo
+  5. DLO 
 
 </details>
