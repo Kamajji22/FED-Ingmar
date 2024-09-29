@@ -142,12 +142,12 @@ header .hamburgerMenu {
   bottom: 0%;
   z-index: 3; /*zet de hamburgermenu voor de rest*/
   overflow: scroll; /*laat de hamburger menu scrollen*/
-  transform: translate(100%, 0%);
+  transform: translate(100%, 0%); /*verbergt de hamburgermenu rechts*/
   transition: .3s;
 }
 
-header #toonMenu {
-  transform: translate(0%, 0%);
+header #toonMenu { 
+  transform: translate(0%, 0%); /*brengt de hamburgermenu terug, word op de hamburger ul gedaan vanuit java als er op de knop word gedrukt*/
 }
 
 header .hamburgerMenu input {
@@ -161,7 +161,7 @@ header .hamburgerMenu li:nth-of-type(1) {
   left: 0;
   display: flex;
   flex-direction: row;
-  position: sticky;
+  position: sticky; /*laat de eerste header bovenaan plakken als je naar benede scrollt*/
   background-color: var(--color-background);
   z-index: 10;
   justify-content: space-between;
@@ -182,7 +182,9 @@ header .hamburgerMenu li:nth-of-type(1) {
 header .hamburgerMenu li {
   border-bottom: 0.5px solid var(--color-borderbottom);
   padding-bottom: 1em;
-  width: 92.5%;
+  padding-top: 1em;
+  width: 95%;
+  margin: 0em; /*Margin van de li buiten de hamburgermenu uitschakelen*/
 }
 
 header .hamburgerMenu a {
@@ -897,3 +899,191 @@ footer section:nth-of-type(7) p {
   color: #323232;
   font-size: 0.75em;
 }
+
+/*Tweede Pagina*/
+
+.pagina2 header {
+  margin-bottom: 2em;
+}
+
+/*Tweede Pagina main*/
+
+.pagina2 main {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/*pijltje terug naar boxershorts*/
+
+.pagina2 main a:first-of-type {
+  text-decoration: none;
+  color: gray;
+  font-family: "HurmeHEMA-SemiBold";
+  padding-top: 1em;
+}
+
+/*carousel onderbroek*/
+
+.pagina2 main ul:first-of-type {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  gap: 1em;
+}
+
+.pagina2 main ul img{
+  width: 80vw;
+  border-radius: 0.5em;
+}
+
+/*h2 3 stuks*/
+
+.pagina2 main h2 {
+  font-size: 1em;
+  border: 0.2px solid var(--color-borderbottom);
+  padding: 0.5em;
+  margin: 1em 0;
+  width: 4.75em;
+  border-radius: 0.25em;
+}
+
+/*h3 herenboxers lang*/
+
+.pagina2 main h3 {
+  margin-bottom: 1em;
+  font-size: 1.25em;
+}
+
+/*prijs en hartje*/
+
+.pagina2 main h4 {
+  font-family: "HurmeHEMA-Bold";
+  font-size: 1.70em;
+  margin-bottom: 1em;
+}
+
+.pagina2 main ul:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 0.5px var(--color-borderbottom);
+}
+
+.pagina2 main ul:nth-of-type(2) img {
+  width: 2.75em;
+  border-radius: 50%;
+  border: 0.5px solid var(--color-borderbottom);
+  padding: 0.5em;
+  margin-bottom: 2em;
+}
+
+/*h5 kleur en maat*/
+
+.pagina2 main h5 {
+  font-family: "HurmeHEMA-Bold";
+  margin-top: 1.5em;
+  font-size: 1em;
+}
+
+.pagina2 main h5:first-of-type {
+  border-bottom: 0.5px solid var(--color-borderbottom);
+  padding-bottom: 1.5em;
+}
+
+.pagina2 main h5:last-of-type {
+  margin-bottom: 0.75em;
+}
+
+/*maten kiezer*/
+
+.pagina2 main ul:nth-of-type(3) p{
+  color: var(--color-text);
+  font-size: 1em;
+  font-family: "HurmeHEMA-SemiBold";
+  padding: 0.75em;
+  border: 0.5px solid var(--color-borderbottom);
+  border-radius: 3.5em;
+}
+
+.pagina2 main ul:nth-of-type(3) li p.geselecteerd {
+  border-radius: 1.5em;
+  border: 2px solid var(--color-text);
+}
+
+.pagina2 main ul:nth-of-type(3) {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.pagina2 main ul:nth-of-type(3) li {
+  width: 4em;
+  text-align: center;
+}
+
+.pagina2 main p:last-of-type {
+  color: green;
+  font-family: "HurmeHEMA-SemiBold";
+  margin-bottom: 1em;
+}
+
+/*sticky winkelmandje*/
+
+.pagina2 #inWinkelmand {
+  bottom: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-background);
+  padding-top: 1em;
+  border-top: solid 0.5px var(--color-borderbottom);
+  padding-bottom: 0.75em;
+  flex-direction: row;
+  gap: 1em;
+  align-items: baseline;
+}
+
+.pagina2 #inWinkelmand.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 85%;
+  overflow: hidden;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: solid 0.5px var(--color-borderbottom);
+}
+
+.pagina2 #inWinkelmand button {
+  background-color: #F8C011;
+  border: none;
+  color: var(--color-text-black);
+  font-family: "HurmeHEMA-Bold";
+  border-radius: 0.5em;
+  width: 26em;
+  font-size: 1.1em;
+  height: 3em;
+}
+
+.pagina2 #inWinkelmand ul {
+  border: 0.5px solid var(--color-borderbottom);
+  border-radius: 0.5em;
+  padding: 1em;
+  width: 1.5em;
+  padding-right: 3em;
+  display: flex;
+  flex-direction: column;
+  font-family: "HurmeHEMA-SemiBold";
+  height: 3em;
+  background-image: url("../images/arrow.svg");
+  background-position: 30px;
+  background-repeat: no-repeat;
+  background-size: 2em;
+  scrollbar-width: none;
+}
+
+
