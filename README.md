@@ -249,5 +249,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. David de studentenassisten
   4. ivo
   5. DLO 
+  6. Iconify voor sommige kleine icoontjes die niet in de source van de HEMA stonden
 
 </details>
