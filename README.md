@@ -250,5 +250,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. ivo
   5. DLO 
   6. Iconify voor sommige kleine icoontjes die niet in de source van de HEMA stonden
+  7.  ik wil dat als je boven de originele positie bent dat hij onderaan het scherm staat, en als je voorbij de originele positie bent dat hij bovenaan gaat staan
 
 </details>

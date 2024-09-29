@@ -7,7 +7,7 @@ let sluitBurger = document.querySelector ("#sluitHamburger"); //vind de #sluitHa
 const hamburgerMenu = document.querySelector(".hamburgerMenu");
 const MaatOnderboek = document.querySelectorAll(".pagina2 main ul:nth-of-type(3) li"); //selecteerd de ul van de maten
 
-const winkelmand = document.getElementById("inWinkelmand");
+const winkelmand = document.querySelector("#inWinkelmand");
 const originalPosition = winkelmand.getBoundingClientRect().top + window.scrollY; // Verkrijg de originele positie van de winkelmand op basis van de horizontale scroll
 
 openBurger.onclick = openMenu; //roept de functie openMenu aan als je op openBurger (de hamburgermenuknop) drukt
