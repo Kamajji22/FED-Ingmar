@@ -88,7 +88,8 @@ html:has([value="dark"]:checked) section:nth-of-type(2) .bekijkAlles,
 html:has([value="dark"]:checked) section:nth-of-type(5) p,
 html:has([value="dark"]:checked) section:nth-of-type(5) h3,
 html:has([value="dark"]:checked) section:nth-of-type(2) p,
-html:has([value="dark"]:checked) main nav li p {
+html:has([value="dark"]:checked) main nav li p,
+html:has([value="dark"]:checked) .pagina2 main > a:first-of-type {
     color: var(--color-text-dark);
 }
 
