@@ -45,7 +45,7 @@ document.addEventListener("scroll", function() {
     const currentScroll = window.scrollY; // scrollpositie van de window, verticaal (y)
 
     // als de huidige scollpositie groter is dan de originele positie van de winkelmand gaat de winkelmand bovenaanstaan
-    if (currentScroll > originalPosition + 310 ) { //de +310 pixels zorgt er voor dat hij niet meteen bovenaan gaat staan, maar pas 340 pixels later
+    if (currentScroll > originalPosition + 320   ) { //de +320 pixels zorgt er voor dat hij niet meteen bovenaan gaat staan, maar pas 340 pixels later
         inWinkelmand.classList.add("fixed-top"); // Voeg de fixed top class toe
     } else {
         inWinkelmand.classList.remove("fixed-top"); // Verwijdert de fixed top
