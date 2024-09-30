@@ -1067,6 +1067,10 @@ footer section:nth-of-type(7) p {
   width: 26em;
   font-size: 1.1em;
   height: 3em;
+  background-image: url("../images/winkelMandje.svg");
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+  background-position: 30px;
 }
 
 .pagina2 #inWinkelmand ul {
@@ -1084,6 +1088,6 @@ footer section:nth-of-type(7) p {
   background-repeat: no-repeat;
   background-size: 2em;
   scrollbar-width: none;
+  margin-bottom: -1em;
 }
-
 
