@@ -531,8 +531,10 @@ main section:nth-of-type(4) li .winkelmandjeGeel {
 main section:nth-of-type(4) li h2 {
   width: 4em;
   bottom: 1em;
-  left: 0.5em;
+  left: 0.2em;
   position: absolute;
+  font-size: 2.75em;
+  bottom: 0.25em;
 }
 
 main section:nth-of-type(4) ul {
@@ -550,6 +552,13 @@ main section:nth-of-type(4) a{
   margin-left: 0.5em;
   margin-right: 0.5em;
   text-align: left;
+}
+
+main section:nth-of-type(4) li a h2 span {
+  font-size: 0.5em;
+  position: absolute;
+  top: 0.2em;
+  left: 2.2em;
 }
 
 /*main section 5*/
@@ -1050,7 +1059,8 @@ footer section:nth-of-type(7) p {
 .pagina2 main h4 {
   font-family: "HurmeHEMA-Bold";
   font-size: 1.70em;
-  margin-bottom: 1em;
+  margin-bottom: 1em; 
+  position: relative;
 }
 
 .pagina2 main ul:nth-of-type(2) {
@@ -1067,6 +1077,13 @@ footer section:nth-of-type(7) p {
   border: 0.5px solid var(--color-borderbottom);
   padding: 0.5em;
   margin-bottom: 2em;
+}
+
+.pagina2 main h4 span {
+  font-size: 0.5em;
+  top: 0.2em;
+  left: 2.2em;
+  position: absolute;
 }
 
 /*h5 kleur en maat*/
