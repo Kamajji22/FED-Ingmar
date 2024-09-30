@@ -5,25 +5,94 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
+  color-scheme: light dark; 
+
 	--color-text:#111;
   --color-text-white: white;
 	--color-background:#ffffff;
   --color-highlight: #9C1AFF;
   --color-borderbottom: rgb(212, 212, 212);
+  --color-footertext: #323232;
+
+  --color-background-dark: #111;
+  --color-text-dark:white;
+  --color-borderbottom-dark: white;
+  --color-footertext-dark: rgb(208, 208, 208);
 }
 
 
+/* Base styles */
+html {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: var(--color-borderbottom);
+} 
 
+footer p{
+  color: var(--color-footertext);
+}
+
+main section:nth-of-type(7) summary p{
+  color: var(--color-text);
+}
+
+main section:nth-of-type(7) a{
+  color: var(--color-text);
+}
+
+/* value light */
+html:has([value="light"]:checked) {
+  color-scheme: light;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: var(--color-borderbottom);
+}
+
+html:has([value="light"]:checked) .hamburgerMenu p,
+html:has([value="light"]:checked) .hamburgerMenu a {
+  color: var(--color-text);
+}
+
+/* value dark */
+html:has([value="dark"]:checked) {
+  color-scheme: dark;
+  color: var(--color-text-dark);
+  background-color: var(--color-background-dark);
+  border: var(--color-borderbottom-dark);
+}
+
+html:has([value="dark"]:checked) main section:nth-of-type(7) summary p,
+html:has([value="dark"]:checked) main section:nth-of-type(7) a,
+html:has([value="dark"]:checked) footer p  {
+  color: var(--color-footertext-dark);  
+}
+
+html:has([value="dark"]:checked) header nav ul:first-of-type img,
+html:has([value="dark"]:checked) #sluitHamburger,
+html:has([value="dark"]:checked) main section:nth-of-type(7) summary:after {
+  filter: invert(100%);
+}
+
+html:has([value="dark"]:checked) section:nth-of-type(4) p,
+html:has([value="dark"]:checked) section:nth-of-type(4) h2,
+html:has([value="dark"]:checked) .hamburgerMenu a,
+html:has([value="dark"]:checked) section:nth-of-type(2) .bekijkAlles,
+html:has([value="dark"]:checked) section:nth-of-type(5) p,
+html:has([value="dark"]:checked) section:nth-of-type(5) h3,
+html:has([value="dark"]:checked) section:nth-of-type(2) p,
+html:has([value="dark"]:checked) main nav li p {
+    color: var(--color-text-dark);
+}
+
+html:has([value="dark"]:checked) .hamburgerMenu,
+html:has([value="dark"]:checked) .hamburgerMenu li:nth-of-type(1) {
+  background-color: var(--color-background-dark);
+}
 
 
 /****************/
@@ -206,6 +275,12 @@ header .hamburgerMenu a p{
   margin-left: 1em; 
 }
 
+/*dark-light-auto mode*/
+
+header .hamburgerMenu li:nth-of-type(2){
+  font-family: "HurmeHEMA-Regular";
+}
+
 /*main*/
 
 /*nav main*/
@@ -279,6 +354,7 @@ main section:first-of-type article h2{
   margin-bottom: 0.75em;
   margin-left: 1em;
   margin-right: 1em;
+  color: var(--color-text-white);
 }
 
 main section:first-of-type article p{
@@ -824,7 +900,7 @@ footer section:nth-of-type(5) {
 
 footer section:nth-of-type(5) a {
   text-decoration: none;
-  color: #323232;
+  color: var(--color-footertext);
   margin-bottom: 0.75em;
 }
 
@@ -896,7 +972,7 @@ footer section:nth-of-type(7) {
 }
 
 footer section:nth-of-type(7) p {
-  color: #323232;
+  color: var(--color-footertext);
   font-size: 0.75em;
 }
 
