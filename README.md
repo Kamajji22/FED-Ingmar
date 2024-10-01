@@ -178,12 +178,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <h3>A11y test eigen pagina </h3>
 
-  <img src="readme-images/ingmarContent" width="375px" alt="mijn eigen content score op dea11y test">
+  <img src="readme-images/ingmarContent.png" width="375px" alt="mijn eigen content score op dea11y test">
   <img src="readme-images/ingmarGlobalCode.png" width="375px" alt="mijn eigen global code score op de a11y test">
   <img src="readme-images/ingmarKeyboard.png" width="375px" alt="mijn eigen keyboard score op de a11y test">
   <img src="readme-images/ingmarImages.png" width="375px" alt="mijn eigen images score op de a11y test">
   <img src="readme-images/ingmarHeadings.png" width="375px" alt="mijn eigen headings score op de a11y test">
-  <img src="readme-images/ingmarList.png" width="375px" alt="mijn eigen list score op de a11y test">
+  <img src="readme-images/ingmarLists.png" width="375px" alt="mijn eigen list score op de a11y test">
   <img src="readme-images/ingmarControls.png" width="375px" alt="mijn eigen controls score op de a11y test">
   <img src="readme-images/ingmarContrast.png" width="375px" alt="mijn eigen contrasts score bij de a11y test">
   <img src="readme-images/ingmarMobile.png" width="375px" alt="mijn eigen mobile score bij de a11y test">
