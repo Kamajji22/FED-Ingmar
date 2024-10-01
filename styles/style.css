@@ -700,9 +700,6 @@ main section:nth-of-type(7) summary{
   display: flex;
   justify-content: space-between;
   user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none; /*hulp van chatGPT om het selecteren van de text te disabelen/*/
-  -ms-user-select: none;
 }
 
   main section:nth-of-type(7) summary::after { /*https://www.sitepoint.com/style-html-details-element/*/
@@ -727,6 +724,7 @@ main section:nth-of-type(7) summary{
     border-bottom: 0.5px solid rgb(212, 212, 212);
     padding-bottom: 1.35em;
   }
+s
 
 /*footer*/
 
