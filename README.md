@@ -170,8 +170,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  <h3>Screen reader test eigen pagina </h3>
+  Uit mijn screenreader test ontdekte ik dat als je tabd voorbij  de hamburgermenuknop, dat de screenreader de inhoud van de hamburgermenu gaat lezen ookal is die niet in beeld. Dit probleem heeft de echte HEMA site ook.
+
+Met javascript heb ik dit probleem opgelost. Door area-hidden: true toe te passen op de .hamburgerMenu en de visibility op hidden te doen leest de screenreader de hamburgermenu niet, maar als je hem dan opent gaat de visibility op visible en gaat aria hidden op false. Zo kan de hamburgermenu wel gelezen worden als hij open is. Helaas is mijn hamburgermenu nu niet alleen met CSS gedaan, maar usability vind ik belangerijker!
+
+
+  <h3>A11y test eigen pagina </h3>
+
+  <img src="readme-images/ingmarContent" width="375px" alt="mijn eigen content score op dea11y test">
+  <img src="readme-images/ingmarGlobalCode.png" width="375px" alt="mijn eigen global code score op de a11y test">
+  <img src="readme-images/ingmarKeyboard.png" width="375px" alt="mijn eigen keyboard score op de a11y test">
+  <img src="readme-images/ingmarImages.png" width="375px" alt="mijn eigen images score op de a11y test">
+  <img src="readme-images/ingmarHeadings.png" width="375px" alt="mijn eigen headings score op de a11y test">
+  <img src="readme-images/ingmarList.png" width="375px" alt="mijn eigen list score op de a11y test">
+  <img src="readme-images/ingmarControls.png" width="375px" alt="mijn eigen controls score op de a11y test">
+  <img src="readme-images/ingmarContrast.png" width="375px" alt="mijn eigen contrasts score bij de a11y test">
+  <img src="readme-images/ingmarMobile.png" width="375px" alt="mijn eigen mobile score bij de a11y test">
+
+  Sommige onderdelen zijn overgeslagen omdat ze NVT zijn.
 
 </details>
 
@@ -251,5 +268,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. DLO 
   6. Iconify voor sommige kleine icoontjes die niet in de source van de HEMA stonden
   7.  ik wil dat als je boven de originele positie bent dat hij onderaan het scherm staat, en als je voorbij de originele positie bent dat hij bovenaan gaat staan
+  8. https://stackoverflow.com/questions/16751345/automatically-close-all-the-other-details-tags-after-opening-a-specific-detai automatisch sluiten details tag als een andere word geopent 
 
 </details>

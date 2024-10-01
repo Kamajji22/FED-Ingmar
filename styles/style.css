@@ -224,12 +224,12 @@ header .hamburgerMenu {
   bottom: 0%;
   z-index: 3; /*zet de hamburgermenu voor de rest*/
   overflow: scroll; /*laat de hamburger menu scrollen*/
-  transform: translate(100%, 0%); /*verbergt de hamburgermenu rechts*/
   transition: .3s;
+  /*transform: translate(0,0); */
 }
 
-header #toonMenu { 
-  transform: translate(0%, 0%); /*brengt de hamburgermenu terug, word op de hamburger ul gedaan vanuit java als er op de knop word gedrukt*/
+#toonMenu {
+  transform: translate(100%, 0);
 }
 
 header .hamburgerMenu input {
@@ -286,6 +286,14 @@ header .hamburgerMenu a img {
 
 header .hamburgerMenu a p{
   margin-left: 1em; 
+}
+
+header .hamburgerMenu[aria-hidden="true"] {
+  visibility: hidden;
+}
+
+header .hamburgerMenu[aria-hidden="false"] {
+  visibility: visible;
 }
 
 /*dark-light-auto mode*/
@@ -1195,4 +1203,3 @@ footer section:nth-of-type(7) p {
   scrollbar-width: none;
   margin-bottom: -1em;
 }
-
