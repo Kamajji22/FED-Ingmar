@@ -171,9 +171,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   <h3>Screen reader test eigen pagina </h3>
-  Uit mijn screenreader test ontdekte ik dat als je tabd voorbij  de hamburgermenuknop, dat de screenreader de inhoud van de hamburgermenu gaat lezen ookal is die niet in beeld. Dit probleem heeft de echte HEMA site ook.
+  Uit mijn screenreader test ontdekte ik dat als je tabt voorbij  de hamburgermenuknop, dat de screenreader de inhoud van de hamburgermenu gaat lezen ookal is die niet in beeld. Dit probleem heeft de echte HEMA site ook.
 
-Met javascript heb ik dit probleem opgelost. Door area-hidden: true toe te passen op de .hamburgerMenu en de visibility op hidden te doen leest de screenreader de hamburgermenu niet, maar als je hem dan opent gaat de visibility op visible en gaat aria hidden op false. Zo kan de hamburgermenu wel gelezen worden als hij open is. Helaas is mijn hamburgermenu nu niet alleen met CSS gedaan, maar usability vind ik belangerijker!
+  Ik heb dit probleem opgelost door visibility: hidden; op de .hamburgermenu te doen zodat die onzichtbaar is voor de screenreader, en dan als je op de knop drukt en #toonMenu op de .hamburgermenu word gedaan dat dan visability: visable aan gaat en de hamburger te zien is, met ogen en met de screen reader!
 
 
   <h3>A11y test eigen pagina </h3>

@@ -225,11 +225,13 @@ header .hamburgerMenu {
   z-index: 3; /*zet de hamburgermenu voor de rest*/
   overflow: scroll; /*laat de hamburger menu scrollen*/
   transition: .3s;
-  /*transform: translate(0,0); */
+  transform: translate(100%,0); 
+  visibility: hidden;
 }
 
 #toonMenu {
-  transform: translate(100%, 0);
+  transform: translate(0, 0);
+  visibility: visible;
 }
 
 header .hamburgerMenu input {
