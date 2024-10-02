@@ -1,6 +1,3 @@
-// JavaScript Document
-console.log("hi");
-
 let openBurger = document.querySelector (".hamburgerKnop"); //vind de .hamburgerknop
 let sluitBurger = document.querySelector ("#sluitHamburger"); //vind de #sluitHamburger
 

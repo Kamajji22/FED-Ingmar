@@ -1,7 +1,4 @@
-// JavaScript Document
-
 const details = document.querySelectorAll("details"); //selecteerd de details tag
-
 
 details.forEach((detail) => { //checkt elke detail
   detail.addEventListener("toggle", () => { // voegt eventlistener toe als detial geklikt word.

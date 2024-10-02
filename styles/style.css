@@ -226,12 +226,12 @@ header .hamburgerMenu {
   overflow: scroll; /*laat de hamburger menu scrollen*/
   transition: .3s;
   transform: translate(100%,0); 
-  visibility: hidden;
+  visibility: hidden; /*maakt hamburgermenu onzichtbaar zodat screenreader hem niet leest als hij van het scherm is*/
 }
 
 #toonMenu {
   transform: translate(0, 0);
-  visibility: visible;
+  visibility: visible; /*maakt hamburger menu visable */
 }
 
 header .hamburgerMenu input {
