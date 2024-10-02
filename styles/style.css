@@ -630,7 +630,6 @@ main section:nth-of-type(5) li:nth-of-type(2) img{
   background-color: rgb(103, 206, 225);
 }
 
-
 /*main section 6*/
 
 main section:nth-of-type(6) h2{
@@ -654,11 +653,6 @@ main section:nth-of-type(6) li{
   ;
 }
 
-main section:nth-of-type(6) ul::marker {
-  content: '✓';
-  font-size: 1.2em;
-}
-
 main section:nth-of-type(6) {
   position: relative;
 }
@@ -670,7 +664,6 @@ main section:nth-of-type(6) article{
   top: 16.5em;
   border-radius: 0.75em;
 }
-
 
 main section:nth-of-type(6) a{
   text-decoration: none;
