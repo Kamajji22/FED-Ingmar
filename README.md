@@ -233,19 +233,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaatMijnHema.png" width="375px" alt="uiteindelijke homepage einresultaat">
+  <img src="readme-images/eindresultaatPagina2.png" width="375px" alt="uiteindelijke productpagina eindresultaat">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Het hamburger menu maken ging goed, de tutorial op DLO was duidelijk en ik had het snel gemaakt. Ook het onzichtbaar maken voor de screenreaders ging makkelijk na wat onderzoek
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/mijnVerbeteringHM.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  dark mode was een uitdaging. Sommige ptjes en htjes wouden maar niet mee vernaderen en moest ik uiteindelijk nog zelf aan slaan in de css. Ik ben wel erg blij dat het uiteindelijk gelukt is, maar ik ben er wel meerdere uren aan kwijt geraakt...
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/moeilijkDarkMode.png"dumm width="375px" alt="bummer">
 </details>
 
 
