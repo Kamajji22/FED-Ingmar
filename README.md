@@ -138,26 +138,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik loop een beetje achter met de css, dit komt omdat ik ziek was en een achterstand had die ik nu bijna heb bijgewerkt
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  vragen:
+  -wat moet er in de uiteindelijke oplevering?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Readme bijwerken
+  - algemene css af hebben voor de volgende meeting
 
 </details>
 
@@ -190,6 +182,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Sommige onderdelen zijn overgeslagen omdat ze NVT zijn.
 
+  een skip link die de header skipt is bij mij niet van toepassing omdat mijn header erg kort is. Er zijn maar 4 dingen die je kan "tabben" 
+
 </details>
 
 
@@ -202,7 +196,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik struggelde deze week een beetje met coderen en ik was ook erg druk met vormgeving. Ik ben wel bijna klaar met mn css van de eerste pagina
+  Ik struggelde deze week een beetje met coderen en ik was ook erg druk met vormgeving. Ik ben wel klaar met de css van de eerste pagina
 
 
   ### Agenda voor meeting
