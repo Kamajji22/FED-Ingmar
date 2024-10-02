@@ -244,7 +244,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   dark mode was een uitdaging. Sommige ptjes en htjes wouden maar niet mee vernaderen en moest ik uiteindelijk nog zelf aan slaan in de css. Ik ben wel erg blij dat het uiteindelijk gelukt is, maar ik ben er wel meerdere uren aan kwijt geraakt...
 
-  <img src="readme-images/moeilijkDarkMode.png"dumm width="375px" alt="bummer">
+  <img src="readme-images/moeilijkDarkMode.png" width="375px" alt="bummer">
+
 </details>
 
 
