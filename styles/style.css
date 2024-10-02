@@ -9,7 +9,6 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
   color-scheme: light dark; 
 
 	--color-text:#111;
@@ -27,12 +26,6 @@
 
 
 /* Base styles */
-html {
-  color: var(--color-text);
-  background-color: var(--color-background);
-  border: var(--color-borderbottom);
-} 
-
 footer p{
   color: var(--color-footertext);
 }
@@ -112,12 +105,6 @@ html:has([value="dark"]:checked) .pagina2 #inWinkelmand ul {
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /*fonts*/
 
 @font-face {
@@ -136,6 +123,11 @@ html:has([value="dark"]:checked) .pagina2 #inWinkelmand ul {
 }
 
 /*algemene styling*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 p {
 	font-family: "HurmeHEMA-Regular";
@@ -452,7 +444,6 @@ main section:nth-of-type(2) li{
   margin-right: 0.75em;
 }
 
-
 /*main section 3*/
 
 main section:nth-of-type(3) {
@@ -715,29 +706,28 @@ main section:nth-of-type(7) summary{
   user-select: none;
 }
 
-  main section:nth-of-type(7) summary::after { /*https://www.sitepoint.com/style-html-details-element/*/
-    content: '';
-    display: inline-block;
-    width: 20px; 
-    height: 20px;
-    background: url('../images/arrow.svg') no-repeat center center;
-    background-size: contain;
-    transition: 0.4s;
-  }
+main section:nth-of-type(7) summary::after { /*https://www.sitepoint.com/style-html-details-element/*/
+  content: '';
+  display: inline-block;
+  width: 20px; 
+  height: 20px;
+  background: url('../images/arrow.svg') no-repeat center center;
+  background-size: contain;
+  transition: 0.4s;
+}
 
-  main section:nth-of-type(7) details[open] > summary::after {
-    transform: rotate(180deg);
-  }
+main section:nth-of-type(7) details[open] > summary::after {
+  transform: rotate(180deg);
+}
 
-  main section:nth-of-type(7) summary {
-    position: relative;
-  }
+main section:nth-of-type(7) summary {
+  position: relative;
+}
 
-  main section:nth-of-type(7) details {
-    border-bottom: 0.5px solid rgb(212, 212, 212);
-    padding-bottom: 1.35em;
-  }
-s
+main section:nth-of-type(7) details {
+  border-bottom: 0.5px solid rgb(212, 212, 212);
+  padding-bottom: 1.35em;
+}
 
 /*footer*/
 
