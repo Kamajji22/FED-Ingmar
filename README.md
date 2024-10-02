@@ -202,24 +202,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik struggelde deze week een beetje met coderen en ik was ook erg druk met vormgeving. Ik ben wel bijna klaar met mn css van de eerste pagina
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  |         | en dit             | en ik dit    | en dan ik dat       |
-  |        | dit als er tijd is | nog een punt | dit wil ik zeker    |
-  | ...            | ...                | ...          | ...              |
+  Vragen:
+  - Vragen of ik een simpelere tweede pagina mag
+  - Vragen of ik dingen kan weglaten in hamburger menu
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Vragen of ik een simpelere tweede pagina mag
-  - Vragen of ik dingen kan weglaten in hamburger menu
+  - Laatste week ff knallen om alles af te hebben
+  - Tweede pagina hoeft niet alles er op te hebben, maak voormal "gave" dingen
 
 </details>
 
